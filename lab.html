@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+ <body>
   <header>
     <h2>Evento Click</h2>
 </header>
@@ -22,15 +17,15 @@
 
   <th> <button onclick="mifun()">Haz Click</button></th>
 
-   <th> eje 3</th>
+   <th> <p>Este es un ejemplo del evento de "click" a un elemento p</p>
+    <p id="demo">Click me</p>
+  </th>
 
   </tr>
- 
-
+ <script src="lab.js"></script>
+ <script src="lab2.js"></script>
 </table>
 
-  
-    <script src="lab.js"></script>
 
     <header>
       <h2>Evento Focus</h2>
@@ -39,11 +34,22 @@
   <table>
   <th><h3>Ejemplo 1</h3></th> <th> <h3>Ejemplo 2</h3></th> <th> <h3>Ejemplo 3</h3></th>
 
-  <tr> <th>eje 1</th> 
-     <th> eje 2 </th> 
-     <th>eje 3</th>
-  </tr>
+  <tr> <th><form id="myForm">
+    <input type="text" id="myInput">
+  </form>
+  </th> 
+  
+   <th>  <br> 
+    <form> 
+      <input type="text" id="text1" name="text1" size="30">
+      <br>
+    </form> </th> 
 
+    <th><p>Ingresa tu nombre</p> 
+      <input id="name">
+    </th>
+  </tr>
+<script src="ejemplos.js"></script>
    </table> 
 </body>
-</html>
+</html>   
