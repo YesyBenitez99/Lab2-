@@ -19,4 +19,11 @@ function mifun(){
 
 
 // ejemplo 3
+/*
+document.getElementById("demo").addEventListener("click", myfuncion);
+
+function myfuncion(){
+    document.getElementById("demo").innerHTML = "Haz hecho click aqui!";
+}
+*/
 
